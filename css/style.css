@@ -1,6 +1,6 @@
 body {
     font-family: 'Noto Sans Myanmar', Arial, Helvetica, sans-serif; 
-    font-size: 14px; 
+    font-size: 15px; 
     font-weight: 200;
 
     background-color:#F7F5FA;
@@ -10,6 +10,7 @@ body {
 }
 
 nav {
+    font-size: 15px;
     border-bottom: #EEEEEE solid 1px;
     display: flex;
     flex-direction: row;
@@ -29,7 +30,7 @@ nav > a:hover {
 }
 
 a {
-    color: black;
+    color: #080707;
     text-decoration: none;
     border-bottom: black solid 1px;
 }
@@ -38,7 +39,8 @@ a:hover {
     border-bottom: aqua solid 3px;
 }
 a:active {
-    background-color: aqua;
+    
+    background-color: rgb(215, 229, 229);
 }
 
 .kitchen-tool{
@@ -71,6 +73,15 @@ a:active {
     width: 80%;
   }
 
+  .s-1{
+    margin-left: 90px;
+    width: 80%;
+    border-color: #ebdcec;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 12pt;
+  }
+
   .equipment-1:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
@@ -84,4 +95,17 @@ a:active {
   }
 
 
+  .swiper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        column-gap: 50px;
 
+        margin-top: 200px;
+        margin-bottom: 70px;
+        width:900px;
+  }
+
+  .cake-swiper-wrapper{
+    align-items: center;
+  }

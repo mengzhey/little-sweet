@@ -3,7 +3,10 @@
 <head>
     <title>Little Sweet - How to make a chiffon cake?</title>
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/image-gallery.js"></script>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script type = "module" src="js/image-gallery.js"></script> -->
 </head>
 
 <body>
@@ -16,25 +19,21 @@
     </nav>
 </header>
 
-  <div class="swiper">
+  <section class="swiper">
      <!-- Additional required wrapper -->
-     <div class="swiper-wrapper">
-       <!-- Slides -->
-       <div class="swiper-slide">Slide 1</div>
-       <div class="swiper-slide">Slide 2</div>
-       <div class="swiper-slide">Slide 3</div>
-       ...
-       </div>
-       <!-- If we need pagination -->
+     <div class="cake-swiper-wrapper">
+        <div class="swiper-slide">
+          <img class ="s-1" src="./asset/chiffon-cake-recipe-1.jpeg" alt="mixing-bowl">
+        </div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+     </div>
        <div class="swiper-pagination"></div>
-  
-       <!-- If we need navigation buttons -->
        <div class="swiper-button-prev"></div>
        <div class="swiper-button-next"></div>
-  
-       <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
-  </div>
+       <div class="swiper-scrollbar"></div>
+  </section>
+
 
 <div class ="kitchen-tool">
    <div class="equipment-1">
@@ -54,9 +53,9 @@
     </div>  
     
     <div class="equipment-3">
-        <img class ="scale" src="./asset/kitchen-scale.jpeg" alt="kitchen-scale">
+        <img class ="scale" src="./asset/spatula.jpeg" alt="kitchen-scale">
         <div class="kitchen-container">
-            <h2><b>Kitchen cale</b></h2> 
+            <h2><b>Kitchen Scale</b></h2> 
             <p>Stainless steel is the most versatile mixing bowl material</p> 
         </div>  
       </div>  
