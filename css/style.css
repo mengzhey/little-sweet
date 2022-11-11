@@ -3,6 +3,8 @@ body {
     font-size: 14px; 
     font-weight: 200;
 
+    background-color:#F7F5FA;
+
     max-width: 1440px;
     margin: auto;
 }
@@ -38,3 +40,48 @@ a:hover {
 a:active {
     background-color: aqua;
 }
+
+.kitchen-tool{
+    display: flex;
+    flex-direction: row;
+}
+
+.equipment-1, .equipment-2, .equipment-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #ffffff;
+    
+    padding-top: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    margin-left: 100px;
+  }
+
+  .mixing {
+    width: 80%;
+  }
+  
+  .scale {
+    width: 80%;
+  }
+
+  .equipment-1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  
+  .kitchen-container {
+    text-align: center;
+    width: 250px;
+    padding: 2px 16px;
+    font-size: 15px;
+  }
+
+
+
