@@ -7,7 +7,12 @@
     <!-- <link rel="stylesheet" href="css/test.css"> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script defer src="js/image-gallery.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/css/tabby-ui.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/js/tabby.polyfills.min.js"></script>
+    <script  src="js/vertical-tab.js"></script>
 </head>
+
 
 <body>
   <header>
@@ -19,30 +24,41 @@
     </nav>
   </header>
 
-  <section class="swiper mySwiper1">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-    <div class="swiper-slide">
-        <img class ="s-1" src="./asset/chiffon-cake-recipe-1.jpeg" alt="mixing-bowl">
-    </div>
-      <div class="swiper-slide">
+  <div class="grid">
+  <ul data-tabs>
+    <li><a data-tabby-default href="#showcase">Showcase</a></li>
+    <li><a href="#kitchen-tool">Kitchen Tools</a></li>
+  </ul>
+  </div>
+
+
+  <section id ="showcase">
+   <div class="title">
+    <h1>Welcome to bakery intro class<br>How to make a Chiffon Cake?</h1>
+   </div>
+     <div class="swiper mySwiper1">
+       <!-- Additional required wrapper -->
+       <div class="swiper-wrapper">
+       <div class="swiper-slide">
         <img class ="s-1" src="./asset/chiffon-cake-recipe-1.jpeg" alt="mixing-bowl">
       </div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-    </div>
+        <div class="swiper-slide">
+         <img class ="s-1" src="./asset/kitchen-scale.jpeg" alt="mixing-bowl">
+       </div>
+         <div class="swiper-slide">Slide 2</div>
+         <div class="swiper-slide">Slide 3</div>
+       </div>
 
-    <div class="swiper-pagination"></div>
+          <div class="swiper-pagination"></div>
     
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
 
     <!-- <div class="swiper-scrollbar"></div> -->
-    </section>
+  </div>
+</section>
 
-    <script defer src="js/image-gallery.js"></script>
-
-<section class ="kitchen-tool">
+<section id ="kitchen-tool">
    <div class="equipment-1">
      <img class ="mixing" src="./asset/mixing-bowl.jpeg" alt="mixing-bowl">
       <div class="kitchen-container">
@@ -104,8 +120,8 @@
     
         <div class="swiper-pagination"></div>
         
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
     
         <!-- <div class="swiper-scrollbar"></div> -->
         </section>

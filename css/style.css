@@ -9,6 +9,18 @@ body {
     margin: auto;
 }
 
+.title{
+    text-align: center;
+    font-size: 24px;
+    line-height: 80px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 30% 70%;
+}
+
 nav {
     font-size: 15px;
     border-bottom: #EEEEEE solid 1px;
@@ -48,7 +60,7 @@ section {
     padding-bottom: 70px;
 }
 
-.kitchen-tool{
+#kitchen-tool{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -100,14 +112,24 @@ section {
   }
 
 
-  .swiper{
+  .mySwiper1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    column-gap: 50px;
+
 
     margin-top: 200px;
     margin-bottom: 70px;
     width:900px;
   }
 
+  .mySwiper3{
+    display: flex;
+    flex-direction: row;
+    column-gap: 300px;
+
+
+    margin-top: 200px;
+    margin-bottom: 70px;
+    width:1200px;
+  }

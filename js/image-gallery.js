@@ -30,7 +30,6 @@ const swiper1 = new Swiper('.mySwiper1', {
     loop: true,
     mousewheel: true,
   
-    // If we need pagination
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -39,14 +38,12 @@ const swiper1 = new Swiper('.mySwiper1', {
         },
       },
   
-    // // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
 
 
-    // And if we need scrollbar
     scrollbar: {
       el: '.swiper-scrollbar',
     },
@@ -54,20 +51,12 @@ const swiper1 = new Swiper('.mySwiper1', {
   
 
   const swiper3 = new Swiper('.mySwiper3', {
-    // Optional parameters
     direction: 'vertical',
-    loop: true,
-    mousewheel: true,
-  
-    // If we need pagination
+    // direction: 'horizontal',
+
     pagination: {
-        el: ".swiper-pagination",
+        el: '.swiper-pagination',
         clickable: true,
       },
+    });
 
-
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
