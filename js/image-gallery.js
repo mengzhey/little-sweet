@@ -2,7 +2,7 @@ const swiper1 = new Swiper('.mySwiper1', {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
-      delay: 1000,
+      delay: 3000,
       disableOnInteraction: false,
     },
   
@@ -17,7 +17,6 @@ const swiper1 = new Swiper('.mySwiper1', {
     //   prevEl: '.swiper-button-prev',
     // },
   
-    // And if we need scrollbar
     scrollbar: {
       el: '.swiper-scrollbar',
     },
@@ -25,7 +24,6 @@ const swiper1 = new Swiper('.mySwiper1', {
 
   
   const swiper2 = new Swiper('.mySwiper2', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
     mousewheel: true,
