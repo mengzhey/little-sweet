@@ -2,24 +2,27 @@
 <html lang="en">
 <head>
     <title>Little Sweet - How to make a chiffon cake?</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/css/tabby-ui.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/js/tabby.polyfills.min.js"></script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script defer src="js/image-gallery.js"></script>
     
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/css/tabby-ui.min.css">
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/js/tabby.polyfills.min.js"></script>
-    <script  src="js/vertical-tab.js"></script>
+
 </head>
 
 
 <body>
   <header>
     <nav>
+        <img class ="icon" src="./asset/icon.png"> 
         <a href="">Homepage</a>
         <a href="">Courses</a>
         <a href="">Equipments</a>
         <a href="">Techniques</a>
+
     </nav>
   </header>
 
@@ -27,14 +30,16 @@
   <ul data-tabs>
     <li><a data-tabby-default href="#showcase">Showcase</a></li>
     <li><a href="#kitchen-tool">Kitchen Tools</a></li>
+    <li><a href="#written-version">Tutorials(text)</a></li>
   </ul>
+  <div class="title">
+    <h1>Aries Bakery School<br>How to make a Chiffon Cake?</h1>
   </div>
+  </div>
+  <script src="js/vertical-tab.js"></script>
 
 
   <main id ="showcase">
-   <div class="title">
-    <h1>Bakery 101<br>How to make a Chiffon Cake?</h1>
-   </div>
      <div class="swiper mySwiper1">
 
        <div class="swiper-wrapper">
@@ -72,32 +77,66 @@
       <img class ="scale" src="./asset/kitchen-scale.jpeg" alt="kitchen-scale">
       <div class="kitchen-container">
           <h2><b>Kitchen cale</b></h2> 
-          <p>Stainless steel is the most versatile mixing bowl material</p> 
+          <p>A good kitchen scale gets your baking down to a science, offering precision</p> 
       </div>  
     </div>  
     
      <div class="equipment-3">
           <img class ="scale" src="./asset/spatula.jpeg" alt="kitchen-scale">
             <div class="kitchen-container">
-             <h2><b>Kitchen Scale</b></h2> 
-               <p>Stainless steel is the most versatile mixing bowl material</p> 
+             <h2><b>Spatula</b></h2> 
+               <p>This spatula is used for frosting cakes and to spread toppings or mixtures smoothly</p> 
             </div>  
      </div>  
   </div>
   </section>  
 
-<section class="swiper mySwiper2">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-    <div class="swiper-slide">
-        <img class ="s-1" src="./asset/chiffon-cake-recipe-1.jpeg" alt="mixing-bowl">
+<section id="written-version">
+  <div id="section-title">
+    <h2>Tutorials(text)</h2>
+  </div>
+  <div id="ingredient-title">
+    <ul>
+      <li><h3>Ingredients</h3></li>
+    </ul>
+  </div>
+    <div id="ingredient-container">
+      <div class="ingredient-1">
+        <img class ="flour" src="./asset/" alt="egg">
+          <div class="ingredient-container-title">
+           <h2><b>Cake flour</b></h2> 
+          </div>   
+     </div>
+     <div class="ingredient-2">
+      <img class ="sugar" src="./asset/sugar.jpeg" alt="sugar">
+        <div class="ingredient-container-title"><br>
+         <h2><b>Cake flour</b></h2> 
+        </div>   
     </div>
-      <div class="swiper-slide">
-        <img class ="s-1" src="./asset/chiffon-cake-recipe-1.jpeg" alt="mixing-bowl">
+
+    <div class="ingredient-3">
+      <img class ="egg-white" src="./asset/egg white.jpg" alt="egg white">
+        <div class="ingredient-container-title"><br>
+         <h2><b>Cake flour</b></h2> 
+        </div>   
+    </div>
+  </div>
+    <div id="recipe-title">
+      <ul>
+        <li><h3>Recipes</h3></li>
+      </ul>
+    </div>
+       <div class="swiper mySwiper2">
+         <div class="swiper-wrapper">
+         <div class="swiper-slide">
+         <img class ="s-1" src="./asset/chiffon-cake-1.png" alt="mixing-bowl">
+     </div>
+       <div class="swiper-slide">
+          <img class ="s-1" src="./asset/chiffon-cake-recipe-1.jpeg" alt="mixing-bowl">
       </div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-    </div>
+         <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+     </div>
 
     <div class="swiper-pagination"></div>
     
@@ -105,29 +144,37 @@
     <div class="swiper-button-prev"></div>
 
     <!-- <div class="swiper-scrollbar"></div> -->
-    </section>
+    </div>
+</section>
 
-    <section class="swiper mySwiper3">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <img class ="s-1" src="./asset/chiffon-cake-recipe-1.jpeg" alt="mixing-bowl">
-        </div>
-          <div class="swiper-slide">
-            <img class ="s-1" src="./asset/chiffon-cake-recipe-1.jpeg" alt="mixing-bowl">
-          </div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-        </div>
-    
-        <div class="swiper-pagination"></div>
-        
-        <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div> -->
-    
-        <!-- <div class="swiper-scrollbar"></div> -->
-        </section>
+<section class="swiper mySwiper3">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">          
+      <h4>Scroll Container</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus,
+        ex eu sagittis faucibus, ligula ipsum sagittis magna, et imperdiet
+        dolor lectus eu libero. Vestibulum venenatis eget turpis sed
+        faucibus. Maecenas in ullamcorper orci, eu ullamcorper sem. Etiam
+        elit ante, luctus non ante sit amet, sodales vulputate odio. Aenean
+        tristique nisl tellus, sit amet fringilla nisl volutpat cursus.
+        Quisque dignissim lectus ac nunc consectetur mattis. Proin vel
+        hendrerit ipsum, et lobortis dolor. Vestibulum convallis, nibh et
+        tincidunt tristique, nisl risus facilisis lectus, ut interdum orci
+        nisl ac nunc. Cras et aliquam felis. Quisque vel ipsum at elit
+        sodales posuere eget non est. Fusce convallis vestibulum dolor non
+        volutpat. Vivamus vestibulum quam ut ultricies pretium.
+      </p>
+   </div>
+ </div>
+<div class="swiper-scrollbar"></div>
+</section>
+
+
+
+
 
 </body>
+
 
 </html>

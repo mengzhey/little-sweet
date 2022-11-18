@@ -6,7 +6,6 @@ const swiper1 = new Swiper('.mySwiper1', {
       disableOnInteraction: false,
     },
   
-    // If we need pagination
     pagination: {
       el: '.swiper-pagination',
     },
@@ -49,12 +48,12 @@ const swiper1 = new Swiper('.mySwiper1', {
   
 
   const swiper3 = new Swiper('.mySwiper3', {
-    direction: 'vertical',
-    // direction: 'horizontal',
-
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-
+    direction: "vertical",
+    slidesPerView: "auto",
+    freeMode: true,
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+    mousewheel: true,}
+ 
+  );

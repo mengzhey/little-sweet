@@ -16,9 +16,11 @@ body {
 }
 
 .grid {
+  margin-left: 20px;
+  margin-top: 30px;
   display: grid;
-  grid-gap: 2em;
-  grid-template-columns: 30% 70%;
+  grid-gap: 180px;
+  grid-template-columns: 10px 1000px;
 }
 
 nav {
@@ -29,6 +31,9 @@ nav {
     justify-content: flex-end;
 }
 
+.icon{
+  padding-right: 700px;
+}
 
 nav > a {
     border: none;
@@ -55,9 +60,9 @@ a:active {
     background-color: rgb(215, 229, 229);
 }
 
-section {
+section{
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 110px;
 }
 
 #showcase{
@@ -66,9 +71,6 @@ margin-bottom: 80px;
 
 
 #kitchen-tool{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around; */
     background-color: #EDE9F2;
 }
 
@@ -79,9 +81,18 @@ margin-bottom: 80px;
   background-color: #EDE9F2;
 }
 
+
 #section-title{
   padding-left: 90px;
+  padding-bottom: 30px;
+  line-height: 10px;
 }
+
+#ingredient-title{
+  padding-left: 90px; 
+}
+
+
 .equipment-1, .equipment-2, .equipment-3 {
     display: flex;
     flex-direction: column;
@@ -119,7 +130,6 @@ margin-bottom: 80px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
-  
   .kitchen-container {
     text-align: center;
     width: 250px;
@@ -127,8 +137,49 @@ margin-bottom: 80px;
     font-size: 15px;
   }
 
+  #ingredient-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
-  .mySwiper1{
+    font-size: 15px;
+  }
+
+  .ingredient-1,.ingredient-2, .ingredient-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #ffffff;
+    
+    padding-top: 20px;
+
+    border-radius: 15px;
+
+    transition: 0.3s;
+
+    width: 300px;
+  }
+
+.flour{
+  width: 200px;
+  height: 282px;
+  object-fit:scale-down;
+}
+
+.sugar{
+  width: 200px;
+  height: 250px;
+  object-fit:scale-down;
+ }
+
+ .egg-white{
+  width: 200px;
+  height: 250px;
+  object-fit:scale-down;
+ }
+
+.mySwiper1{
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
@@ -139,12 +190,7 @@ margin-bottom: 80px;
   }
 
   .mySwiper3{
-    display: flex;
-    flex-direction: row;
-    column-gap: 300px;
+        position: relative;
+        height: 100%;
 
-
-    margin-top: 200px;
-    margin-bottom: 70px;
-    width:1200px;
   }
