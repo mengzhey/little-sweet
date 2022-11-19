@@ -21,6 +21,7 @@ body {
   display: grid;
   grid-gap: 180px;
   grid-template-columns: 10px 1000px;
+  font-size: 16px;
 }
 
 nav {
@@ -89,9 +90,15 @@ margin-bottom: 80px;
 }
 
 #ingredient-title{
+  font-size: 16px;
   padding-left: 90px; 
 }
 
+#recipe-title{
+  font-size: 16px;
+  padding-left: 90px; 
+  padding-top: 50px;
+}
 
 .equipment-1, .equipment-2, .equipment-3 {
     display: flex;
@@ -126,6 +133,18 @@ margin-bottom: 80px;
     border-width: 12pt;
   }
 
+  .t-1{
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 90px;
+    padding-top: 20px;
+    width: 80%;
+    height: 400px;
+    background-color: #EDE9F2;
+  }
+
+
   .equipment-1:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
@@ -159,6 +178,7 @@ margin-bottom: 80px;
     transition: 0.3s;
 
     width: 300px;
+    height: 300px;
   }
 
 .flour{
@@ -175,8 +195,8 @@ margin-bottom: 80px;
 
  .egg-white{
   width: 200px;
-  height: 250px;
-  object-fit:scale-down;
+  height: 180px;
+  object-fit: cover;
  }
 
 .mySwiper1{
@@ -189,8 +209,20 @@ margin-bottom: 80px;
     width: 1100px;
   }
 
-  .mySwiper3{
-        position: relative;
-        height: 100%;
+  .mySwiper2{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
 
+    height: 100%;
+    width: 1200px;
+
+    padding-top: 20px;
   }
+
+  #text-1{
+    width: 300px;
+    overflow-y: scroll;
+    margin-left: 300px;
+  }
+
