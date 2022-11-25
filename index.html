@@ -2,15 +2,25 @@
 <html lang="en">
 <head>
     <title>Little Sweet - How to make a chiffon cake?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/css/tabby-ui.min.css">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/js/tabby.polyfills.min.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script defer src="js/image-gallery.js"></script>
-  
+    <script defer src="js/image-gallery.js"></script> 
+<!-- 
+    <link rel="stylesheet" href="path/to/plyr.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdn.plyr.io/3.7.3/plyr.js"></script>
 
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    
 </head>
 
 
@@ -31,13 +41,14 @@
     <li><a data-tabby-default href="#showcase">Showcase</a></li>
     <li><a href="#kitchen-tool">Tools</a></li>
     <li><a href="#written-version">Tutorials(text)</a></li>
+    <li><a href="#video-tutorial">Tutorials(video)</a></li>
   </ul>
-  <div class="title">
-    <h1>Aries Bakery School<br>How to make a Chiffon Cake?</h1>
-  </div>
   </div>
   <script src="js/vertical-tab.js"></script>
 
+  <div>
+    <h1 class="animate__animated animate__fadeInDown">Zaku-Aries Bakery School<br>How to make a Chiffon Cake?</h1>
+  </div>
 
   <main id ="showcase">
      <div class="swiper mySwiper1">
@@ -88,6 +99,14 @@
                <p>This spatula is used for frosting cakes and to spread toppings or mixtures smoothly</p> 
             </div>  
      </div>  
+
+     <div class="equipment-4">
+      <img class ="scale" src="./asset/spatula.jpeg" alt="kitchen-scale">
+        <div class="kitchen-container">
+         <h2><b>Spatula</b></h2> 
+           <p>This spatula is used for frosting cakes and to spread toppings or mixtures smoothly</p> 
+        </div>  
+ </div> 
   </div>
   </section>  
 
@@ -120,35 +139,120 @@
          <h2><b>6 egg-white</b></h2> 
         </div>   
     </div>
+
+    <div class="ingredient-3">
+      <img class ="egg-white" src="./asset/egg white.jpg" alt="egg white">
+        <div class="ingredient-container-title"><br>
+         <h2><b>6 egg-white</b></h2> 
+        </div>   
+    </div>
   </div>
     <div id="recipe-title">
       <ul>
         <li><h3>Recipes</h3></li>
       </ul>
     </div>
+
        <div class="swiper mySwiper2">
          <div class="swiper-wrapper">
-         <div class="swiper-slide">
-          <div class="t-1">
-            <p class="text-subtitle"><h2>Step 1</h2></p>
-          </div>
-        </div>
-       <div class="swiper-slide">
-          <img class ="s-1" src="./asset/chiffon-cake-recipe-1.jpeg" alt="mixing-bowl">
-        </div>
-         <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-     </div>
-    <div class="swiper-pagination"></div>    
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+           <div class="swiper-slide">
+             <div class="t-1">
+              <p class="text-subtitle"><h2>Step 1</h2></p><br>
+              <div class="rp-1">
+              <p class="rp-text">You need to preheat the oven to 325 degrees F (165 degrees C). Wash a 10-inch angel food tube pan in hot soapy water to ensure it is grease-free; dry well.</p>
+              <img class="r-1" src="./asset/baking-pan.png">
+              </div>
+            </div>
+           </div>
 
-    <!-- <div class="swiper-scrollbar"></div> -->
-    </div>
+           <div class="swiper-slide">
+            <div class="t-1">
+             <p class="text-subtitle"><h2>Step 2</h2></p><br>
+             <p>You need to measure flour, sugar, baking powder, and salt into a sifter; sift into a bowl. Make a well; add egg yolks, water, oil, vanilla extract, and lemon extract to the well in the order listed. Do not beat.</p>
+             <img class="r-1" src="./asset/baking-pan.png">
+           </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="t-1">
+             <p class="text-subtitle"><h2>Step 3</h2></p><br>
+             <p>You can beat egg whites and cream of tartar in a large bowl until very stiff, you can also refer the below video about the process.</p>
+             <img class="r-1" src="./asset/baking-pan.png">
+           </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="t-1">
+             <p class="text-subtitle"><h2>Step 4</h2></p><br>
+             <p>Using the same beaters, you can beat egg yolk batter until smooth and light; pour slowly over egg whites. Gently fold mixtures together with a rubber spatula. Pour batter into the angel food tube pan.</p>
+             <img class="r-1" src="./asset/baking-pan.png">
+           </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="t-1">
+             <p class="text-subtitle"><h2>Step 5</h2></p><br>
+             <p>Bake cake in the preheated oven for 55 minutes. Increase heat to 350 degrees F (175 degrees C) and continue baking until a toothpick inserted into the center comes out clean, 10 to 15 more minutes.</p>
+             <img class="r-1" src="./asset/baking-pan.png">
+           </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="t-1">
+             <p class="text-subtitle"><h2>Step 6</h2></p><br>
+             <p>Invert the pan onto a wire rack. Let cool completely before unmolding and frosting as desired.</p>
+             <img class="r-1" src="./asset/baking-pan.png">
+           </div>
+          </div>
+          </div>
+          <div class="swiper-pagination"></div>    
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
 </section>
+
+<section id="video-tutorial">
+  <div id="section-title">
+    <h2>Tutorials(video)</h2>
+  </div>
+  <video id="player" playsinline controls data-poster="/path/to/poster.jpg">
+    <source src="/asset/BASIC CHIFFON CAKE RECIPE _ HOW TO MAKE CHIFFON CAKE _ EASY CHIFFON CAKE RECIPE _ SPONGE CAKE RECIPE.mp4" type="video/mp4" />
+
+  </video>
+
+</section>
+
+<section id="tip">
+  <div id="section-title">
+    <h2>Pro-Tips</h2>
+  </div>
+     <div id="tip-image">
+      <img id="tip-image-1" src="asset/fail-1.jpeg">
+      <img id="tip-image-2" src="asset/fail-2.jpeg">
+      </div>
+
+      
+      
+      
+      
+      
+      
+      <script src="https://unpkg.com/@popperjs/core@2"></script>
+      <script src="https://unpkg.com/tippy.js@6"></script>
+      <script src="js/tooltip.js"></script>
+
+</section>
+
+
+<section id="submit">
+
+
+</section>
+
 
 
 </body>
 
 
 </html>
+ 

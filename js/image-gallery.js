@@ -23,37 +23,17 @@ const swiper1 = new Swiper('.mySwiper1', {
 
   
   const swiper2 = new Swiper('.mySwiper2', {
-    direction: 'horizontal',
-    loop: true,
-    mousewheel: true,
-  
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + "</span>";
-        },
-      },
-  
+    cssMode: true,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
-
-
-    scrollbar: {
-      el: '.swiper-scrollbar',
+    pagination: {
+      
+      el: ".swiper-pagination",
     },
-  });
-  
-
-  const swiper3 = new Swiper('.mySwiper3', {
-    direction: "vertical",
-    slidesPerView: "auto",
-    freeMode: true,
-    scrollbar: {
-      el: ".swiper-scrollbar",
-    },
-    mousewheel: true,}
- 
+    mousewheel: true,
+    keyboard: true,
+  }
   );
+  
