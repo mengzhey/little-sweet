@@ -5,8 +5,12 @@ body {
 
   background-color:#F7F5FA;
 
-  /* max-width: 1920px; */
+  max-width: 1920px;
   margin: auto;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 #title{
