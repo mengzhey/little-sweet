@@ -227,16 +227,20 @@
     <h2>Pro-Tips</h2>
   </div>
      <div id="tip-image">
-      <img id="tip-image-1" src="asset/fail-1.jpeg">
-      <img id="tip-image-2" src="asset/fail-2.jpeg">
+      <div>
+        <img id="tip-image-1" src="asset/fail-1.jpeg">
+      </div>
+      <div>
+        <img id="tip-image-2" src="asset/fail-2.jpeg">
+      </div>
+      <div>
+        <img id="tip-image-3" src="asset/fail-3.jpeg">
+      </div>
+      <div>
+        <img id="tip-image-4" src="asset/fail-4.jpeg">
+      </div>
       </div>
 
-      
-      
-      
-      
-      
-      
       <script src="https://unpkg.com/@popperjs/core@2"></script>
       <script src="https://unpkg.com/tippy.js@6"></script>
       <script src="js/tooltip.js"></script>
@@ -245,7 +249,51 @@
 
 
 <section id="submit">
+  <form id="container-form">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
 
+      <div class="upload">
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+  </form>
 
 </section>
 
