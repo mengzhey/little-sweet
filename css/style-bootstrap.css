@@ -177,8 +177,8 @@ body {
   
       font-size: 18px;
       font-weight: 550;
-      border-radius: 15px;
-      box-shadow: 0 5px 14px  rgba(171, 65, 241, 0.24);
+      border-radius: 20px;
+      /* box-shadow: 0 5px 14px  rgba(171, 65, 241, 0.24); */
     }
   
     .rp-1{
@@ -274,10 +274,6 @@ body {
       padding-bottom: 30px;
     }
 
-    /* .swiper {
-      width: 70%;
-      height: 100%;
-    } */
 
 
   
@@ -350,3 +346,15 @@ body {
 
     background-color: #8f50d8;
   }
+
+  footer{
+    background-color: #0A033C;
+    color: #ffffff;
+
+  }
+
+#spatula-01{
+
+  padding-left: 10px;
+}
+
