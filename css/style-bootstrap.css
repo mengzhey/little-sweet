@@ -101,7 +101,7 @@ body {
 
   }
   
-  #section-title{
+  #section-title-1, #section-title-2, #section-title-3 {
     /* margin-left: 20px; */
     font-size: 14px;
     font-weight: 700;
@@ -348,12 +348,17 @@ body {
   }
 
   footer{
-    background-color: #0A033C;
     color: #ffffff;
 
   }
 
-#spatula-01{
+  #footer-final{
+
+    background-color: #080707;
+  }
+
+
+#spatula-01, #spatula-02{
 
   padding-left: 10px;
 }
