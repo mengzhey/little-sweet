@@ -319,7 +319,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 350px;
+    column-gap: 300px;
     row-gap: 150px;
     justify-content: center;
   
