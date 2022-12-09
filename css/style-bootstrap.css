@@ -345,6 +345,7 @@ body {
   .btn-primary{
 
     background-color: #8f50d8;
+    border-color: #8f50d8;
   }
 
   footer{
@@ -363,3 +364,9 @@ body {
   padding-left: 10px;
 }
 
+<<<<<<< HEAD
+.c-1{
+width: 100%
+}
+=======
+>>>>>>> parent of 02b47f1 (12/09)
